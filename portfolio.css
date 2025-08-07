@@ -1,0 +1,111 @@
+
+body{
+    background-color: ghostwhite;
+}
+header{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-weight: 900;
+    }
+}
+ul{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    a{
+        color: white;
+    }
+}
+#About{
+    margin: 50px;
+    padding: 10px;
+    h2{
+        font-weight: bold;
+    }
+    p{
+    font-weight: 400;
+    }
+    span{
+        cursor: pointer;
+        border: 1px solid black;
+        padding: 10px;
+        background-color: lightskyblue;
+        border-radius: 5px;
+        margin: 2px;
+        border-style: none;
+    }
+
+}
+.profileme{
+    padding: 10px;
+    h4{
+        font-style: italic;
+    }
+    display: flex;
+    gap: 10px;
+}
+#Projects{
+    padding: 10px;
+    margin: 50px;
+    .project{
+        border: 1px;
+        padding: 10px;
+        box-shadow: 0 0 .052083333in rgba(0, 0, 0, .1);
+        background-color: white;
+        border-left-color: lightskyblue;
+        border-image: none;
+}
+h2{
+        font-weight: bold;
+    }
+    
+    
+    
+}
+
+#Contact{
+    margin: 50px;
+    padding: 10px;
+    h3{
+        font-weight: bold;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        box-sizing: border-box;
+    }
+    input{
+        padding: 10px;
+        
+    }
+    textarea{
+        height: 60px;
+        padding: 10px;
+    }
+    form button{
+        padding: 10px;
+        width: 60px;
+        border-image: none;
+        border-style: none;
+        background-color: lightskyblue;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
