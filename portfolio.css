@@ -41,6 +41,11 @@ ul{
         margin: 2px;
         border-style: none;
     }
+     span:hover{
+        background-color: lightgrey;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
 
 }
 .profileme{
@@ -54,14 +59,7 @@ ul{
 #Projects{
     padding: 10px;
     margin: 50px;
-    .project{
-        border: 1px;
-        padding: 10px;
-        box-shadow: 0 0 .052083333in rgba(0, 0, 0, .1);
-        background-color: white;
-        border-left-color: lightskyblue;
-        border-image: none;
-}
+    
 h2{
         font-weight: bold;
     }
@@ -109,3 +107,27 @@ footer{
     align-items: center;
     padding: 20px;
 }
+.linkedin{
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.linkedin:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+ .project {
+  background: linear-gradient(to right, #ffffff, #f9f9ff);
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); 
+  border-radius: 12px;
+  border-left: 6px solid #00bfff; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
